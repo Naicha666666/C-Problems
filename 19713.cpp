@@ -12,7 +12,7 @@ const int N=1e3+5;
 int n;
 int pre[N], a[N];
 vector <int> v;
-int main(){
+signed main(){
    cin >> n;
    for (int i = 1; i <= n; i++) cin >> a[i];
    for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + a[i];
